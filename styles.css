@@ -1,0 +1,73 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    height: 1900px;
+}
+
+.shoe1 {
+    height: calc(100% / 3);
+    background-color: red;
+    background-image: url(img/01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.shoe2 {
+    height: calc(100% / 3);
+    color: yellow;
+    background-color: green;
+    background-image: url(img/02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.shoe3 {
+    height: calc(100% / 3);
+    background-color: yellow;
+    background-image: url(img/03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.titolo1 {
+    position: relative;
+    margin: 0 auto;
+    align-self: flex-end;
+    text-align: center;
+    color: yellow;
+}
+
+.titolo2 {
+    position: relative;
+    margin: 0 auto;
+    align-self: flex-end;
+    text-align: center;
+    color: yellow;
+}
+
+.titolo3 {
+    position: relative;
+    margin: 0 auto;
+    align-self: flex-end;
+    text-align: center;
+    color: green;
+}
+
